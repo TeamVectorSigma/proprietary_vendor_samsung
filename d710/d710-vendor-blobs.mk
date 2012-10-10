@@ -72,3 +72,36 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d710/proprietary/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/samsung/d710/proprietary/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
 
+# LPM
+PRODUCT_COPY_FILES += \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/immvibed:system/bin/immvibed \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/lpmkey:system/bin/lpmkey \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/playlpm:system/bin/playlpm \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/battery_error.qmg:system/media/battery_error.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/chargingwarning.qmg:system/media/chargingwarning.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/Disconnected.qmg:system/media/Disconnected.qmg \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/__MANUFACTURER__/__COMMON__/proprietary/PFFprec_600.emd:system/media/PFFprec_600.emd
+
